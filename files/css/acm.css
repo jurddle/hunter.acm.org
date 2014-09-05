@@ -1,0 +1,40 @@
+body, table	{}
+body	{padding-top: 70px;}
+
+#main footer	{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+/**** Hunter ACM ****/
+acronym	{border-bottom:1px dotted #639;}
+
+#ftr	{background:#fff; border-top:1px solid #eee; margin-top:20px; padding-top:20px;}
+#ftr #cuny	{float:right;}
+#ftr #cuny a	{display:inline-block; background:url(../../res/img/hunter_is_cuny.jpg) right top no-repeat; width:162px; height:50px; text-indent:-999em;}
+
+.navbar-inverse	{background-color:#330066;}
+.navbar-inverse .navbar-toggle	{border-color:#CB9902; background-color:#333;}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus	{background-color:#663399;}
+.navbar-inverse .navbar-collapse	{}
+
+.navbar-inverse .navbar-nav > li > a	{color:#E1C849;}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus	{color:#fff;}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus	{background-color:#663399;}
+
+.navbar-brand	{position:relative; padding-left:85px;}
+.navbar-brand img	{height:auto; width:64px; position:absolute; top:0; z-index:99; margin-left:-70px;}
+.navbar-inverse .navbar-brand	{color:#CB9902;}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus	{color:#E1C849;}
+
+.event-list	{margin:1em auto; padding:0; list-style:none;}
+.event-list .event-listing	{padding-left:1em; position:relative; margin:0.5em auto;}
+.event-list .event-listing:before	{content:"\00bb"; position:absolute; margin-left:-1em;}
+.event-list .event-name	{font-weight:bold; font-size:110%;}
+.event-list .event-info	{display:block;}
+.event-list .event-date	{}
+.event-list .event-guest	{}
