@@ -26,7 +26,14 @@ if($event) {
 <?=$evt_msg?>
 	<?=stripslashes(\Michelf\Markdown::defaultTransform($event['description']))?>
 </div>
+<?php
+	if (!empty($event['minutes'])) {?>
+<div class="minutes" id="minutes">
+	<h3>Minutes</h3>
+	<?=stripslashes(\Michelf\Markdown::defaultTransform($event['minutes']))?>
+</div>
 <?php }
+}
 else if (!empty($_GET['event'])) {
 ?>
 <h1>Invalid Event!</h1>
