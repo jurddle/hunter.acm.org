@@ -44,14 +44,14 @@ if(Modernizr.mq)Modernizr.load({
 	<nav class="collapse navbar-collapse" id='nav'><ul class="nav navbar-nav">
 		<li<?php active('home')?>><a href="<?=$root?>/index.php">News</a></li>
 		<li<?php active('about')?>><a href="<?=$root?>/about.php">Profiles</a></li>
-		<li<?php active('about')?>><a href="<?=$root?>/contact.php">Contact Us</a></li>
 		<li<?php active('projects')?>><a href="<?=$root?>/projects.php">Projects</a></li>
 		<li<?php active('events')?>><a href="<?=$root?>/events.php">Events</a></li>
 <?php /* ?>
-		<li<?php active('contact')?>><a href="<?=$root?>/contact.php">Contact Us</a></li>
 		<li<?php active('tutors')?>><a href="<?=$root?>/tutors.php">Tutors</a></li>
 		<li<?php active('misc')?>><a href="<?=$root?>/misc.php">Misc.</a></li>
 <?php */ ?>
+		<li<?php active('bylaws')?>><a href="<?=$root?>/bylaws.php">Bylaws</a></li>
+		<li<?php active('contact')?>><a href="<?=$root?>/contact.php">Contact Us</a></li>
 	</ul></nav><!-- /.nav-collapse -->
 </div><!-- /.container --></header><!-- /.navbar -->
 <article id='main'><div class="container">
