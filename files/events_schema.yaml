@@ -12,9 +12,12 @@ sequence:
            type: str
            pattern: /^\d{2}:\d{2}$/
            required: yes
-       "speaker": 
+       "speaker":
            type: str
            required: no
+        "logo":
+            type: str
+            required: no
        "url":
            type: str
        "description":

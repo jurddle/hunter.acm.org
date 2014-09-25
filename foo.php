@@ -34,7 +34,7 @@ if($event) {
 			<h3>Minutes</h3>
 			<?=stripslashes(\Michelf\Markdown::defaultTransform($event['minutes']))?>
 		</div>
-	<?php } ?>
+	<?php }
 </div>
 
 

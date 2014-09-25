@@ -34,14 +34,14 @@ $past_events = array_filter($events, function($event) use ($current_date){
 });
 
 function render_event_list_item($event, $root){
-	$txt = "\t\t".'<li class="event-listing"><a class="event-name" href="%s">%s</a><span class="event-info"><em class="event-date">%s at %s</em> by <strong class="event-guest">%s</strong></span></li>'."\n";
+	$txt = "\t\t".'<li class="event-listing"><a class="event-name" href="%s">%s</a><span class="event-info"><em class="event-date">%s at %s</em> in <strong class="event-guest">%s</strong></span></li>'."\n";
 	return sprintf(
 		$txt,
 		"{$root}/event.php?event={$event['index']}",
 		$event['title'],
 		$event['date']->format('Y/m/d'),
 		$event['time']->format('g:ia'),
-		stripslashes($event['speaker'])
+		$event['location']	
 	);
 }
 
