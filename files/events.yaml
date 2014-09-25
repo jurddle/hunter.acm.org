@@ -1,9 +1,14 @@
 ---
+- title: "Welcome Back"
+	date: 2014-09-03
+	time: '13:00'
+	description: |
+		Welcome back, Hawks, to another semester of the ACM @ Hunter College! Stay tuned for more info about upcoming events, as well as info about volunteering.
+
 - title: "Club Fair!"
 	date: 2014-09-10
 	time: '10:00'
-	speaker: ACM @ Hunter e-board
-	location: 69th St (between Park and Lexington Aves)
+	location: East 69th Street, btwn Park and Lexington Aves.
 	description: |
 		The ACM @ Hunter College will have a booth at the Club Fair! The entire e-board will be present, though one or two may be a little bit later due to schedule conflicts. Be sure to stop by the booth, say hi, and sign the prospective member list. We'll talk tech, tech policy, and anything else that may interest you.
 
@@ -22,7 +27,7 @@
 		Explained big events:
 			<ol><li>Women in Tech (October 15, 2014) Co sponsored by Comp Sci and Women and Gender studies department<br/>
 				Explore ways to increase the number of women in CS and the tech field in general<br/>
-				The panel will consist of Aurelia Moser from Girls Develop It NYC, and will be moderated by Sumana Harihareswara of the Wikimedia Foundation; also joining the panel is Prof. Sakas and Prof. Weiss</li>
+				The panel will consist of Aurelia Moser from Girls Develop It NYC, and will be moderated by Sumana Harihareswara of the Wikimedia Foundation; also joining the panel is Prof. Sakas and a WGS Rep.</li>
 			<li>Early November, Real World Employment in the tech field (undecided date)</li>
 			<li>Joint event with the HFGA, Huge Blowout video game party (LAN Party). End of Semester, undecided date atm.</li>
 			</ol>
@@ -44,29 +49,39 @@
 - title: "Fall 2014, General Meeting"
 	date: 2014-10-01
 	time: '13:00'
+	location: Hunter North 1000J
 	speaker: ACM @ Hunter e-board
-	location: Hunter North 1022
 	description: |
-		The first meeting of the ACM @ Hunter was a success! <a href="/event.php?event=1#minutes">View the minutes</a>. The next general meeting of the fall 2014 semester of the ACM @ Hunter College will be WednesdWe'll be discussing in detail the big events of the fall, including the upcoming Women in Computer Science panel, so stop on by!
+		The first meeting of the ACM @ Hunter was a success! <a href="/event.php?event=2#minutes">View the minutes</a>. The next general meeting of the fall 2014 semester of the ACM @ Hunter College will be Wednesday, October 1 at 1PM in Hunter North 1000J. We'll be discussing in detail the big events of the fall, including the upcoming Women in Computer Science panel, so stop on by!
 
-- title: "Fall 2014, Women in Technology and Computer Science Panel"
+- title: "Fall 2014, Women in Computer Science panel"
 	date: 2014-10-15
 	time: '13:00'
-	speaker: |		
-		Sumana Harihareswara (Wikimedia Foundation) will be moderating this panel and is the senior technical writer (was Volunteer Development Coordinator between May 2011 and April 2012, then Engineering Community Manager from April 2012 to March 2014). 
-		<br><br>
-		Aurelia Moser (<a href="http://www.girldevelopit.com/chapters/new-york">Girls Develop It</a>) is a librarian and developer in NYC. 
-		In addition leading NYC's GDI chapter, she teaches metadata and data visualization courses, and develops open source mapping software and data-journo curriculum under current support of a Knight-Mozilla fellowship. In her free time, she contributes to art && code community programs and participates in hackathons for Data Kind, Hack n'Jill, Art Hack Day and Open Data programs. Full stack from data munging to code monkeying, 
-		she's happy to geek for social good where possible.
-		<br><br>
-		Prof. William Sakas is chair of and a professor in the Computer Science department at Hunter College<br><br>        
-		Prof. Stewart Weiss is a professor in the Computer Science at Hunter College
 	location: Hunter West 415
+	speaker: |		
+		Sumana Harihareswara, <i>Wikimedia Foundation</i>;
+		Aurelia Moser, <i>Girl Develop It</i>;
+		Prof. William Sakas, <i>Hunter College</i>;
+		Prof. Stewart Weiss, <i>Hunter College</i>
 	description: |
-		<a href="http://bit.ly/1rcfNLT">RSVP now</a> to reserve a seat for a one of a kind panel discussion on how to increase the presence of women in the computing and technology 
-		field. 
-		<br><br>
-		This panel is being hosted by ACM @ Hunter and is co-sponsored by the Women and Gender studies program and the Computer Science department at Hunter. 
+		<a href="http://bit.ly/1rcfNLT">RSVP now</a> to reserve a seat for <em>Women in Computer Science</em>, a one of a kind panel discussion on how to increase the presence of women in the computing and technology! Hosted by the ACM @ Hunter and co-sponsored by Hunter's Computer Science and Women and Gender Studies departments, it will take place on Wednesday, October 15 at 1PM in Hunter West 415.
+		
+		<h4>About the Speakers</h4>
+		<h5>Sumana Harihareswara, <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation</a></h5>
+
+		Sumana will be moderating this panel and is the senior technical writer (was Volunteer Development Coordinator between May 2011 and April 2012, then Engineering Community Manager from April 2012 to March 2014). 
+
+		<h5>Aurelia Moser, <a href="http://www.girldevelopit.com/chapters/new-york">Girl Develop It</a></h5>
+
+		Aurelia is a librarian and developer in NYC. In addition leading NYC's GDI chapter, she teaches metadata and data visualization courses, and develops open source mapping software and data-journo curriculum under current support of a Knight-Mozilla fellowship. In her free time, she contributes to art && code community programs and participates in hackathons for Data Kind, Hack n'Jill, Art Hack Day and Open Data programs. Full stack from data munging to code monkeying, she's happy to geek for social good where possible.
+		
+		<h5>Prof. William Sakas, Hunter College</h5>
+
+		Prof. Sakas is an associate professor at Hunter College, as well as the chair of the Computer Science department.
+		
+		<h5>Prof. Stewart Weiss, Hunter College</h5>
+
+		Prof. Weiss is an associate professor in the Computer Science department at Hunter College.
 
 
 - title: "Fall 2014, Real-World Tech Employment"
@@ -75,12 +90,12 @@
 	speaker: Alex Rosario, ACM @ Hunter president
 	location: Hunter North 1000J
 	description: |
-		ACM @ Hunter College is hosting a talk on gaining real-world employment in the tech field. Our very own ACM chapter president, Alex Rosario, will be sharing his advice and experience on getting a useful, hopefully lucrative job in tech, keeping it, and avoiding the pitfalls specific to tech hiring!
+		ACM @ Hunter College is hosting a talk on gaining real-world employment in the tech field Wednesday, November 5 at 1PM in Hunter North 1000J. Our very own ACM chapter president, Alex Rosario, will be sharing his advice and experience on getting a useful, hopefully lucrative job in tech, keeping it, and avoiding the pitfalls specific to tech hiring!
 
 - title: "Fall 2014, LAN Party!"
 	date: 2014-12-10
 	time: '13:00'
-	speaker: ACM @ Hunter e-board
-	location: TBA 
+	speaker: TBA
+	location: TBA
 	description: |
 		The ACM @ Hunter will be hosting a final blowout party for the fall 2014 semester with the Hunter FGA! The temporary date says 12/10, but details will be updated with room, date, and time once they are finalized. Get hyped!
