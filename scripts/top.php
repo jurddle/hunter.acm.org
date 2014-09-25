@@ -44,6 +44,7 @@ if(Modernizr.mq)Modernizr.load({
 	<nav class="collapse navbar-collapse" id='nav'><ul class="nav navbar-nav">
 		<li<?php active('home')?>><a href="<?=$root?>/index.php">News</a></li>
 		<li<?php active('about')?>><a href="<?=$root?>/about.php">Profiles</a></li>
+		<li<?php active('about')?>><a href="<?=$root?>/contact.php">Contact Us</a></li>
 		<li<?php active('projects')?>><a href="<?=$root?>/projects.php">Projects</a></li>
 		<li<?php active('events')?>><a href="<?=$root?>/events.php">Events</a></li>
 <?php /* ?>
