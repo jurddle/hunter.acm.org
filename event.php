@@ -36,9 +36,7 @@ if($event) {
 		</div>
 	<?php } ?>
 </div>
-
-
-<?php }
+}
 else if (!empty($_GET['event'])) {
 ?>
 <h1>Invalid Event!</h1>

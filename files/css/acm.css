@@ -14,6 +14,11 @@ acronym	{border-bottom:1px dotted #639;}
 #ftr #cuny	{float:right;}
 #ftr #cuny a	{display:inline-block; background:url(../../res/img/hunter_is_cuny.jpg) right top no-repeat; width:162px; height:50px; text-indent:-999em;}
 
+.nb	{color: #6633ff;}
+
+#minutes.minutes	{border:1px solid #aa99ff; border-left-width:3px; padding:1em; padding:1rem;}
+	#minutes.minutes h3	{margin:0 auto 1em; margin-bottom:1rem;}
+
 .navbar-inverse	{background-color:#330066;}
 .navbar-inverse .navbar-toggle	{border-color:#CB9902; background-color:#333;}
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus	{background-color:#663399;}
@@ -38,3 +43,8 @@ acronym	{border-bottom:1px dotted #639;}
 .event-list .event-info	{display:block;}
 .event-list .event-date	{}
 .event-list .event-guest	{}
+
+ol.bl	{list-style-type: decimal;}
+	ol.bl ol	{list-style-type: upper-alpha;}
+	ol.bl ol ol	{list-style-type: lower-roman;}
+	ol.bl ol ol ol	{list-style-type: inherit;}
