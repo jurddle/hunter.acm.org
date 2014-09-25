@@ -15,6 +15,9 @@ sequence:
        "speaker": 
            type: str
            required: no
+       "bio":
+           type: str
+           required: no
        "logo":
            type: str
            required: no

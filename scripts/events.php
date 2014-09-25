@@ -42,7 +42,8 @@ function render_event_list_item($event, $root){
 		$event['date']->format('Y/m/d'),
 		$event['time']->format('g:ia'),
 		!empty($event['location'])?' in <strong class="event-guest">'.$event['location'].'</strong>':'',
-		!empty($event['speaker'])?' feat. <strong class="event-guest">'.stripslashes($event['speaker']).'</strong>':''
+		!empty($event['speaker'])?' feat. <strong class="event-guest">'.stripslashes($event['speaker']).'</strong>':'',
+        !empty($event['bio']) ? stripcslashes($event['bio']) : ''
 	);
 }
 
