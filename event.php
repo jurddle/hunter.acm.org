@@ -26,7 +26,15 @@ if($event) {
 	</h2>
 <?=$evt_msg?>
 	<?=stripslashes(\Michelf\Markdown::defaultTransform($event['description']))?>
+
+    <?php
+        if (!empty($event['bio'])) {?>
+        <h2><strong>About the Speakers</strong></h2>
+        <?=stripslashes(\Michelf\Markdown::defaultTransform($event['bio']))?>
+    <?php } ?>
 </div>
+
+
 <?php
 	if (!empty($event['minutes'])) {?>
 <div class="minutes" id="minutes">
