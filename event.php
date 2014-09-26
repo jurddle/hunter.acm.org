@@ -19,7 +19,9 @@ if($event) {
 ?>
 <div class='event'>
 	<h1 class='event-name'><?=$event['title']?></h1>
-	<h2 class='event-info'>Location: <em><?=$event['location']?></em></h2>
+	<?php if(!empty($event['location'])) {?>
+        <h2 class='event-info'>Location: <em><?=$event['location']?></em></h2>
+    <?php } ?>
 	<h2 class='event-info'>
 		<em class='event-date'><?=$event['date']->format('Y/m/d')?></em>
 		<?php if (!empty($event['speaker'])) {?>- <strong class='event-guest'><?=stripslashes($event['speaker'])?></strong><?php } ?>
