@@ -31,8 +31,10 @@ if($event) {
 
     <?php
         if (!empty($event['bio'])) {?>
+    <div class="bio" id="bio">
         <h2><strong>About the Speakers</strong></h2>
         <?=stripslashes(\Michelf\Markdown::defaultTransform($event['bio']))?>
+    </div>
     <?php } ?>
 </div>
 

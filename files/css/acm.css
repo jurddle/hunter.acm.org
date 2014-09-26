@@ -19,6 +19,10 @@ acronym	{border-bottom:1px dotted #639;}
 .minutes	{border:1px solid #aa99ff; border-left-width:3px; padding:1em; padding:1rem;}
 	.minutes h3	{margin:0 auto 1em; margin-bottom:1rem;}
 
+.bio	{border:1px solid #aa99ff; border-left-width:3px; padding:1em; padding:1rem;}
+    .bio h3	{margin:0 auto 1em; margin-bottom:1rem;}
+
+
 .navbar-inverse	{background-color:#330066;}
 .navbar-inverse .navbar-toggle	{border-color:#CB9902; background-color:#333;}
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus	{background-color:#663399;}
