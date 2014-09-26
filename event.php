@@ -15,7 +15,7 @@ if($event) {
 	if(!empty($event['nda'])) $evt_msg .= sprintf($evt_li, $event['nda'], 'NDA');
 	if(!empty($event['ip'])) $evt_msg .= sprintf($evt_li, $event['ip'], 'IP');
 	if(!empty($event['survey'])) $evt_msg .= sprintf($evt_li, $event['survey'], 'Survey');
-	if (!empty($evt_msg)) $evt_msg = "\t<ul>\n{$evt_msg}\t</ul>\n";
+	if(!empty($evt_msg)) $evt_msg = "\t<ul>\n{$evt_msg}\t</ul>\n";
 ?>
 <div class='event'>
 	<h1 class='event-name'><?=$event['title']?></h1>
