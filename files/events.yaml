@@ -59,8 +59,8 @@
 	time: '13:00'
 	location: Hunter West 415
 	speaker: |
-		Sumana Harihareswara, <i><a href="http://www.panix.com">Panix</a>, formerly Wikimedia Foundation</i>;
-		Aurelia Moser, <i>Girl Develop It</i>;
+		Sumana Harihareswara, formerly Wikimedia Foundation</i>;
+		Aurelia Moser, <i><a href="http://www.girldevelopit.com/chapters/new-york">Girl Develop It</a></i>;
 		Prof. William Sakas, <i>Hunter College</i>;
 		Prof. Stewart Weiss, <i>Hunter College</i>
 	description: |
@@ -68,9 +68,9 @@
 		<br /><br />
 		<strong>Hosted by the ACM @ Hunter and co-sponsored by Hunter's Computer Science department and Women and Gender Studies program.</strong>
 	bio: |
-		<strong><h5>Sumana Harihareswara, <a href="http://www.panix.com">Panix</a></h5></strong>
+		<strong><h5>Sumana Harihareswara, formerly Wikimedia Foundation</h5></strong>
 
-		Sumana will be moderating this panel. Sumana mentored and administered <a href="http://code.google.com/soc">Google Summer of Code</a> and GNOME's <a href="http://gnome.org/opw/">Outreach Program for Women (OPW)</a> several times, and is an Ada Initiative board member. Sumana at her former job at <a href="http://wikimediafoundation.org">Wikimedia Foundation</a> was the senior technical writer.
+		Sumana will be moderating this panel. She has mentored and administered <a href="http://code.google.com/soc">Google Summer of Code</a> and GNOME's <a href="http://gnome.org/opw/">Outreach Program for Women (OPW)</a> several times, and is an <a href="http://adainitiative.org/">Ada Initiative</a> board member. Sumana was the engineering community manager and the senior technical writer at her former job at <a href="http://wikimediafoundation.org">Wikimedia Foundation</a>.
 
 		<strong><h5>Aurelia Moser, <a href="http://www.girldevelopit.com/chapters/new-york">Girl Develop It</a></h5></strong>
 
@@ -78,11 +78,11 @@
 		
 		<strong><h5>Prof. William Sakas, Hunter College</h5></strong>
 
-		Prof. Sakas is an associate professor at Hunter College, as well as the chair of the Computer Science department.
+		William  is an associate professor at Hunter College, as well as the chair of the Computer Science department.
 		
 		<strong><h5>Prof. Stewart Weiss, Hunter College</h5></strong>
 
-		Prof. Weiss is an associate professor in the Computer Science department at Hunter College.
+		Stewart is an associate professor in the Computer Science department at Hunter College.
 
 
 - title: "Fall 2014, Real-World Tech Employment"
