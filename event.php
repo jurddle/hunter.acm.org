@@ -23,7 +23,8 @@ if($event) {
         <h2 class='event-info'>Location: <em><?=$event['location']?></em></h2>
     <?php } ?>
 	<h2 class='event-info'>
-		<em class='event-date'><?=$event['date']->format('Y/m/d')?></em>
+		<em class='event-date'><?=$event['date']->format('Y/m/d')?> at
+        <?=$event['time']?></em>
 		<?php if (!empty($event['speaker'])) {?>- <strong class='event-guest'><?=stripslashes($event['speaker'])?></strong><?php } ?>
 	</h2>
 <?=$evt_msg?>
