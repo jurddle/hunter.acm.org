@@ -57,7 +57,7 @@
 - title: "Fall 2014, Women in Technology and Computing panel"
 	date: 2014-10-15
 	time: '13:00'
-	location: Hunter West 415
+	location: <span style="color:red; font-weight:bold">Hunter West  511</span>
 	speaker: |
 		Sumana Harihareswara, formerly Wikimedia Foundation</i>;
 		Aurelia Moser, <i><a href="http://www.girldevelopit.com/chapters/new-york">Girl Develop It</a></i>;
