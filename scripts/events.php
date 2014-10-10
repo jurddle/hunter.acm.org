@@ -12,7 +12,8 @@ $events = file_exists($events_path) ? Spyc::YAMLLoad($events_path) : Array();
 // Transform the date on each event into a DateTime object
 foreach($events as &$event){
 	$event['date'] = DateTime::createFromFormat('Y-m-d',$event['date']);
-	$event['time'] = DateTime::createFromFormat('H:i',$event['time']);
+	$event['time'] = DateTime::createFromFormat('H:i',$event['starttime']);
+	$event['endtime'] = DateTime::createFromFormat('H:i',$event['endtime']);
 }
 
 // Sort the events in ascending date order
@@ -34,13 +35,14 @@ $past_events = array_filter($events, function($event) use ($current_date){
 });
 
 function render_event_list_item($event, $root){
-	$txt = "\t\t".'<li class="event-listing"><a class="event-name" href="%s">%s</a><span class="event-info"><em class="event-date">%s at %s</em>%s%s</span></li>'."\n";
+	$txt = "\t\t".'<li class="event-listing"><a class="event-name" href="%s">%s</a><span class="event-info"><em class="event-date">%s from %s to %s</em>%s%s</span></li>'."\n";
 	return sprintf(
 		$txt,
 		"{$root}/event.php?event={$event['index']}",
 		$event['title'],
 		$event['date']->format('Y/m/d'),
-		$event['time']->format('g:ia'),
+		$event['time']->format('G:i'),
+		$event['endtime']->format('G:i'),
 		!empty($event['location'])?' in <strong class="event-guest">'.$event['location'].'</strong>':'',
 		!empty($event['speaker'])?' feat. <strong class="event-guest">'.stripslashes($event['speaker']).'</strong>':''
 	);
@@ -78,7 +80,7 @@ function event_sidebar(){
 	if (!empty($future_events)) {
 	?><ul class="list-unstyled upcoming-events"><?php
 	foreach ($future_events as $event) {
-		?><li><a href="<?=$root?>/event.php?event=<?=$event['index']?>"><?=$event['title']?></a><br /><?=$event['date']->format('D, M d, Y')?></li><?php
+	?><li><a href="<?=$root?>/event.php?event=<?=$event['index']?>"><?=$event['title']?></a><br /><?=$event['date']->format('D, M d, Y')?></li><?php
 	}
 	?></ul><?php
 	}

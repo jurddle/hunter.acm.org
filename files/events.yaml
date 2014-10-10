@@ -1,20 +1,23 @@
 ---
 - title: "Welcome Back"
 	date: 2014-09-03
-	time: '13:00'
+	starttime: '13:00'
+	endtime: '15:00'
 	description: |
 		Welcome back, Hawks, to another semester of the ACM @ Hunter College! Stay tuned for more info about upcoming events, as well as info about volunteering.
 
 - title: "Club Fair!"
 	date: 2014-09-10
-	time: '10:00'
+	starttime: '10:00'
+	endtime: '16:00'
 	location: East 69th Street, btwn Park and Lexington Aves.
 	description: |
 		The ACM @ Hunter College will have a booth at the Club Fair! The entire e-board will be present, though one or two may be a little bit later due to schedule conflicts. Be sure to stop by the booth, say hi, and sign the prospective member list. We'll talk tech, tech policy, and anything else that may interest you.
 
 - title: "Fall 2014, First Meeting"
 	date: 2014-09-17
-	time: '13:00'
+	starttime: '13:00'
+	endtime: '15:00'
 	location: Hunter North 1022
 	speaker: ACM @ Hunter e-board
 	description: |
@@ -48,21 +51,24 @@
 
 - title: "Fall 2014, General Meeting"
 	date: 2014-10-01
-	time: '13:00'
+	starttime: '13:00'
+	endtime: '15:00'
 	location: Hunter North 1000J
 	speaker: ACM @ Hunter e-board
 	description: |
 		The first meeting of the ACM @ Hunter was a success! <a href="/event.php?event=2#minutes">View the minutes</a>. The next general meeting of the fall 2014 semester of the ACM @ Hunter College will be Wednesday, October 1 at 1PM in Hunter North 1000J. We'll be discussing in detail the big events of the fall, including the upcoming Women in Computer Science panel, so stop on by!
 
-- title: "Fall 2014, Women in Technology and Computing panel (2 hours)"
-	date: 2014-10-15
-  time: '13:00'
-	location: <span style="color:red; font-weight:bold">Hunter West  511</span>
+- title: "Fall 2014, Women in Technology and Computing panel"
+  date: 2014-10-15
+  starttime: '13:00'
+  endtime: '15:00'
+  location: Hunter West 511
 	speaker: |
 		Sumana Harihareswara, formerly Wikimedia Foundation</i>;
 		Aurelia Moser, <i><a href="http://www.girldevelopit.com/chapters/new-york">Girl Develop It</a></i>;
-		Prof. William Sakas, <i>Hunter College</i>;
-		Prof. Stewart Weiss, <i>Hunter College</i>
+		Gabriela Voll, <i>Hunter College Computer Science and Studio Art Student</i>;
+		Victoria Zhong, <i>Hunter College Computer Science Student</i>
+		
 	description: |
 		<a href="http://bit.ly/1rcfNLT">RSVP now</a> to reserve a seat for <em>Women in Technology & Computing</em>, a one of a kind panel discussion on how to increase the presence of women in the computing and technology field!
 		<br /><br />
@@ -76,18 +82,18 @@
 
 		Aurelia is a librarian and developer in NYC. In addition leading NYC's GDI chapter, she teaches metadata and data visualization courses, and develops open source mapping software and data-journo curriculum under current support of a Knight-Mozilla fellowship. In her free time, she contributes to art && code community programs and participates in hackathons for Data Kind, Hack n'Jill, Art Hack Day and Open Data programs. Full stack from data munging to code monkeying, she's happy to geek for social good where possible.
 		
-		<strong><h5>Prof. William Sakas, Hunter College</h5></strong>
+		<strong><h5>Gabriela Voll, <i>Hunter College Computer Science Student</i></h5></strong>
 
-		William  is an associate professor at Hunter College, as well as the chair of the Computer Science department.
+		Gabriela is a Senior at Hunter College, majoring in Computer Science and Studio Art. I am a half-colombian,  programmer and an artist, from new york. I really like creating things  (meaning, sculptures, photographs, gifs, software or a website or etc.)
 		
-		<strong><h5>Prof. Stewart Weiss, Hunter College</h5></strong>
+		<strong><h5>Victoria Zhong, Hunter College Computer Science Student</h5></strong>
 
-		Stewart is an associate professor in the Computer Science department at Hunter College.
-
+		Victoria is a Junior studying Computer Science at Hunter.
 
 - title: "Fall 2014, Real-World Tech Employment"
 	date: 2014-11-05
-	time: '13:00'
+	starttime: '13:00'
+	endtime: '15:00'
 	speaker: Alex Rosario, ACM @ Hunter president
 	location: Hunter North 1000J
 	description: |
@@ -95,8 +101,8 @@
 
 - title: "Fall 2014, LAN Party!"
 	date: 2014-12-10
-	time: '13:00'
-	speaker: TBA
-	location: TBA
+	starttime: '17:00'
+	endtime: '23:59'
+	location: 'TBA'
 	description: |
 		The ACM @ Hunter will be hosting a final blowout party for the fall 2014 semester with the Hunter FGA! The temporary date says 12/10, but details will be updated with room, date, and time once they are finalized. Get hyped!

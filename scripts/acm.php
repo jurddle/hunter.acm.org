@@ -44,5 +44,4 @@ function active($target_section){
 	global $section;
 	if($section == $target_section) { ?> class="active"<?php }
 }
-
 ?>

@@ -8,10 +8,14 @@ sequence:
        "date":
            type: date
            required: yes
-       "time":
+       "starttime":
            type: str
            pattern: /^\d{2}:\d{2}$/
            required: yes
+       "endtime":
+           type: str
+           pattern: /^\d{2}:\d{2}$/
+           required: no
        "speaker": 
            type: str
            required: no
