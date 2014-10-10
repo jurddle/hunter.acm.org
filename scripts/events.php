@@ -80,7 +80,7 @@ function event_sidebar(){
 	if (!empty($future_events)) {
 	?><ul class="list-unstyled upcoming-events"><?php
 	foreach ($future_events as $event) {
-	?><li><a href="<?=$root?>/event.php?event=<?=$event['index']?>"><?=$event['title']?></a><br /><?=$event['date']->format('D, M d, Y')?></li><?php
+		?><li><a href="<?=$root?>/event.php?event=<?=$event['index']?>"><?=$event['title']?></a><br /><?=$event['date']->format('D, M d, Y').' from '.$event['time']->format('G:i').' to '.$event['endtime']->format('G:i') ?></li><?php
 	}
 	?></ul><?php
 	}
