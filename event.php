@@ -23,8 +23,8 @@ if($event) {
         <h2 class='event-info'>Location: <em><?=$event['location']?></em></h2>
     <?php } ?>
 	<h2 class='event-info'>
-		<em class='event-date'><?=$event['date']->format('Y/m/d')?></em><?php if (!empty($event['time'])) { ?>,
-			<span class="event-time"><?=$event['time']->format('G:i')?>
+		<em class='event-date'><?=$event['date']->format('Y/m/d')?></em><?php if (!empty($event['starttime'])) { ?>,
+			<span class="event-time"><?=$event['starttime']->format('G:i')?>
 			<?php if (!empty($event['endtime'])) { ?>to <?= $event['endtime']->format('G:i') ?><?php } ?></span>
 		<?php } ?>
 		<?php if (!empty($event['speaker'])) {?>- <strong class='event-guest'><?=stripslashes($event['speaker'])?></strong><?php } ?>
