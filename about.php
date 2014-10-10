@@ -15,8 +15,8 @@ $officers = array(
 	"2013"=>array(
 		array("title"=>"Advisor","name"=>"Stewart Weiss", "link"=>"http://www.compsci.hunter.cuny.edu/~sweiss"),
 		array("title"=>"Chair","name"=>"Robert O'Connor"),
-		array("title"=>"Vice Chair","name"=>"Daniel Fialkovsky"),
-		array("title"=>"Treasurer","name"=>"Tereza Shterenberg"),
+		array("title"=>"Vice Chair","name"=>"Tereza Shterenberg"),
+		array("title"=>"Treasurer","name"=>"Daniel Fialkovsky"),
 		array("title"=>"Secretary","name"=>"Manuel Grullon"),
 		array("title"=>"Webmaster","name"=>"Alex Rosario"),
 	)
