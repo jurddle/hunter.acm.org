@@ -52,14 +52,14 @@ function render_event_list($events){
 	global $root;
 	$count = 0;
 ?>
-	<ui class="unstyled event-list">
+	<ul class="unstyled event-list">
 <?php
 	foreach ($events as $event){
 		echo render_event_list_item($event, $root);
 		++$count;
 	}
 ?>
-	</ui>
+	</ul>
 <?php
 }
 
@@ -80,7 +80,7 @@ function event_sidebar(){
 	if (!empty($future_events)) {
 	?><ul class="list-unstyled upcoming-events"><?php
 	foreach ($future_events as $event) {
-		?><li><a href="<?=$root?>/event.php?event=<?=$event['index']?>"><?=$event['title']?></a><br /><?=$event['date']->format('D, M d, Y').' from '.$event['starttime']->format('G:i').' to '.$event['endtime']->format('G:i') ?></li><?php
+		?><li><a href="<?=$root?>/event.php?event=<?=$event['index']?>"><?=$event['title']?></a><br /><?=$event['date']->format('D, M d, Y').' from '.$event['starttime']->format('G:i').($event['endtime']?' to '.$event['endtime']->format('G:i'):'') ?></li><?php
 	}
 	?></ul><?php
 	}
