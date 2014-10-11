@@ -42,7 +42,7 @@ function render_event_list_item($event, $root){
 		$event['title'],
 		$event['date']->format('Y/m/d'),
 		$event['starttime']->format('G:i'),
-		$event['endtime']->format('G:i'),
+		$event['endtime']?$event['endtime']->format('G:i'):'TBA',
 		!empty($event['location'])?' in <strong class="event-guest">'.$event['location'].'</strong>':'',
 		!empty($event['speaker'])?' feat. <strong class="event-guest">'.stripslashes($event['speaker']).'</strong>':''
 	);
