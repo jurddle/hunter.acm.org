@@ -35,7 +35,8 @@ require_once(dirname(__FILE__).'/scripts/top.php');
 		<h2>Get Notified!</h2>
 		<ul>
 			<?php if ($show_forums_link) { ?><li><a href="http://hunter.acm.org/phpbb">Hunter ACM Forums</a></li><?php } ?>
-			<li><a href="https://www.facebook.com/groups/huntercollege.acm.chapter/">Hunter ACM on Facebook</a></li>
+			<li><a href="https://www.facebook.com/groups/huntercollege.acm.chapter"><em>Old</em> Hunter ACM on Facebook</a></li>
+			<li><a href="https://www.facebook.com/groups/acmathunter"><strong>New</strong> Hunter ACM on Facebook</a></li>
             <li><a href="https://groups.google.com/forum/#!forum/acm-at-hc">Hunter ACM Google Group</a></li>
 		</ul>
 	</section>
