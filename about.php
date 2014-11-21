@@ -9,7 +9,7 @@ $officers = array(
 		array("title"=>"Chair","name"=>"Alex Rosario"),
 		array("title"=>"Vice Chair","name"=>"Daniel Fialkovsky"),
 		array("title"=>"Treasurer","name"=>"Manuel Grullon"),
-		array("title"=>"Secretary","name"=>"Victor Cabrera"),
+		array("title"=>"Secretary","name"=>"Victor Cabrera (Resigned Fall 2014); Andrew Glyadchenko"),
 		array("title"=>"Webmaster","name"=>"Alex Rosario & Robert O'Connor"),
 	),
 	"2013"=>array(
