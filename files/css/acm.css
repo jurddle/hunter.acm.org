@@ -40,6 +40,8 @@ acronym	{border-bottom:1px dotted #639;}
 .navbar-inverse .navbar-brand	{color:#CB9902;}
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus	{color:#E1C849;}
 
+.jumbotron	{background-color:rgba(0,0,0,0.10); box-shadow:inset 0 2px 4px rgba(0,0,0,0.25);}
+
 .event-list	{margin:1em auto; padding:0; list-style:none;}
 .event-list .event-listing	{padding-left:1em; position:relative; margin:0.5em auto;}
 .event-list .event-listing:before	{content:"\00bb"; position:absolute; margin-left:-1em;}
