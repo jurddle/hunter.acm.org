@@ -4,6 +4,14 @@ $section = 'about';
 require_once(dirname(__FILE__).'/scripts/top.php');
 
 $officers = array(
+	"2015"=>array(
+		array("title"=>"Advisor","name"=>"Stewart Weiss", "link"=>"http://www.compsci.hunter.cuny.edu/~sweiss"),
+		array("title"=>"Chair","name"=>"Alex Rosario"),
+		array("title"=>"Vice Chair","name"=>"Victor Cabrera"),
+		array("title"=>"Treasurer","name"=>"Joy Lam"),
+		array("title"=>"Secretary","name"=>"Victoria Zhong"),
+		array("title"=>"Webmaster","name"=>"Alex Rosario & Robert O'Connor"),
+	),
 	"2014"=>array(
 		array("title"=>"Advisor","name"=>"Stewart Weiss", "link"=>"http://www.compsci.hunter.cuny.edu/~sweiss"),
 		array("title"=>"Chair","name"=>"Alex Rosario"),
@@ -23,11 +31,12 @@ $officers = array(
 );
 
 $members = array(
+	"2015"=>array(),
 	"2014"=>array(),
 	"2013"=>array()
 );
 
-$cur_year = 2014;
+$cur_year = 2015;
 
 function list_officers($o, $as_table=false) {
 	$s = "";
@@ -75,13 +84,19 @@ function list_officers($o, $as_table=false) {
 
 <hr />
 
-<h2>Historical Record</h2>
-<section class="row" id="officers-past">
-	<p>The following is a list of past officers of the ACM @ Hunter.</p>
-	<div class="col-md-4" id="officers-past-2013">
-		<h3>ACM officers for 2013-2014</h3>
-		<?=list_officers($officers["2013"])?>
-	</div>
+<section id="officers-past">
+    <p>The following is a list of past officers of the ACM @ Hunter.</p>
+    <!-- 12 column rows; three years per row. -->
+    <div class="row">
+        <div class="col-md-4" id="officers-past-2013">
+            <h3>ACM officers for 2013-2014</h3>
+            <?=list_officers($officers["2013"]);?>
+        </div>
+        <div class="col-md-4" id="officers-past-2014">
+            <h3>ACM officers for 2014-2015</h3>
+            <?=list_officers($officers["2014"]);?>
+        </div>
+    </div>
 </section>
 
 <?php require_once(dirname(__FILE__).'/scripts/bottom.php') ?>
