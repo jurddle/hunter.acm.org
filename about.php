@@ -6,8 +6,8 @@ require_once(dirname(__FILE__).'/scripts/top.php');
 $officers = array(
 	"2015"=>array(
 		array("title"=>"Advisor","name"=>"Subash Shankar", "link"=>"http://www.cs.hunter.cuny.edu/~sshankar/"),
-		array("title"=>"Chair","name"=>"Alex Rosario"),
-		array("title"=>"Vice Chair","name"=>"Victor Cabrera"),
+		array("title"=>"Chair","name"=>"Alex Rosario <em>(Resigned Fall 2015)</em>; Victor Cabrera"),
+		array("title"=>"Vice Chair","name"=>"Victor Cabrera <em>(Filled <strong>Chair</strong> vacancy in Fall 2015)</em>; Manuel Grullon"),
 		array("title"=>"Treasurer","name"=>"Joy Lam"),
 		array("title"=>"Secretary","name"=>"Victoria Zhong"),
 		array("title"=>"Webmaster","name"=>"Alex Rosario & Robert O'Connor"),
