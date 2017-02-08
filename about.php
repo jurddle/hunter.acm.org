@@ -7,7 +7,7 @@ $officers = array(
     "2016"=>array(
 		array("title"=>"Advisor","name"=>"Stewart Weiss", "link"=>"http://www.compsci.hunter.cuny.edu/~sweiss/"),
 		array("title"=>"Chair","name"=>"Joy Lam"),
-		array("title"=>"Vice Chair","name"=>"Christopher Thomas"),
+		array("title"=>"Vice Chair","name"=>"Jack Chen <em>(Filled <strong>Chair</strong> vacancy in Spring 2017)</em>; Christopher Thomas"),
 		array("title"=>"Treasurer","name"=>" Carol Chau"),
 		array("title"=>"Secretary","name"=>"Andrew Glyadchenko"),
 		array("title"=>"Webmaster","name"=>"Alex Rosario & Robert O'Connor"),
